@@ -1,6 +1,6 @@
 $(function() {
     //从layui中提取form表单模块
-    const { form, layer } = layui
+    const { form } = layui
 
     //点击链接惊喜表单切换
     $('#link-reg').click(function() {
