@@ -23,13 +23,6 @@ axios.interceptors.response.use(function(response) {
         localStorage.removeItem('token')
         location.href = './login.html'
     }
-
-
-
-
-
-
-
     return response.data;
 }, function(error) {
     // 对响应错误做点什么

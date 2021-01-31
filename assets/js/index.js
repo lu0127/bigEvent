@@ -1,6 +1,6 @@
 // 获取用户个人信息
 function getUserInfo() {
-    const { layer } = layui
+    const { from, layer } = layui
     var token = localStorage.getItem('token') || ''
     axios.get('/my/userinfo').then(res => {
         console.log(res)
