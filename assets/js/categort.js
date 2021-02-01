@@ -92,16 +92,14 @@ $(function() {
                     if (res.status !== 0) {
                         return layer.msg('删除失败!')
                     }
-                    layer.close(index)
+
                     getCateList()
                     layer.msg('删除成功!')
                 })
+                layer.close(index)
             }
-        });
 
-
-
-
+        })
 
     })
 })
